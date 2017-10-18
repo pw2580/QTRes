@@ -5,7 +5,7 @@ Rectangle {
     property alias textEdit: textEdit
 
     width: 360
-    height: 360
+    height: 480
 
     MouseArea {
         id: mouseArea
