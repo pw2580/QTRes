@@ -5,7 +5,39 @@ Rectangle {
     property alias textEdit: textEdit
 
     width: 360
-    height: 470
+    height: 450
+    gradient: Gradient {
+        GradientStop {
+            position: 0
+            color: "#2e2e2d"
+        }
+
+        GradientStop {
+            position: 0.316
+            color: "#bdb69d"
+        }
+
+        GradientStop {
+            position: 0.565
+            color: "#e1bc85"
+        }
+
+        GradientStop {
+            position: 0.969
+            color: "#3a3b37"
+        }
+
+        GradientStop {
+            position: 0.782
+            color: "#bfbfbf"
+        }
+
+
+
+
+
+
+    }
 
     MouseArea {
         id: mouseArea
